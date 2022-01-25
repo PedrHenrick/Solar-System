@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 class MissionCard extends React.Component {
   render() {
@@ -16,9 +17,9 @@ class MissionCard extends React.Component {
 
 export default MissionCard;
 
-// MissionCard.propTypes = {
-//   name: PropTypes.string.isRequired,
-//   year: PropTypes.string.isRequired,
-//   country: PropTypes.string.isRequired,
-//   destination: PropTypes.string.isRequired,
-// };
+MissionCard.propTypes = {
+  name: PropTypes.string.isRequired,
+  year: PropTypes.string.isRequired,
+  country: PropTypes.string.isRequired,
+  destination: PropTypes.string.isRequired,
+};
