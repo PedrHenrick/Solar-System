@@ -1,6 +1,64 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-family: 'Ubuntu';
+}
+
+
+body {
+  background-image: url('./images/background.png');
+  color: beige;
+  font-family: monospace;
+  text-align: center;
+}
+
+header {
+  font-size: 3.3rem;
+  padding: 90px;
+}
+
+.h1 {
+  background-color: rgb(10, 10, 10);
+  border: 2px solid rgb(145, 145, 145);
+  border-radius: 6px;
+  display: inline-block;
+  font-size: 2.3rem;
+  margin-top: 10px;
+  width: 350px;
+}
+
+.h2 {
+  border: 2px solid rgb(145, 145, 145);
+  border-radius: 6px;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  width: 200px;
+}
+
+.img {
+  width: 150px;
+}
+
+.Planet {
+  display: inline-block;
+  margin: 10px auto 13px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px auto 13px;
+}
+
+.gallery_card {
+  align-items: center;
+  background-color: rgb(10, 10, 10);
+  border-radius: 15px;
+  box-shadow: 2px 3px rgba(237, 237, 237, 0.5);
+  display: flex;
+  flex-direction: column;
+  height: 170px;
+  justify-content: center;
+  margin: 0 10px 15px 0;
+  width: 240px;
 }
